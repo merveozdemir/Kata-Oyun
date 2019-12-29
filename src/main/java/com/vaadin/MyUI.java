@@ -19,8 +19,8 @@ public class MyUI extends UI {
 
     @Override
     protected void init(VaadinRequest vaadinRequest) {
-        int columnSize = 5;
-        int rowSize = 5;
+        int columnSize = 6;
+        int rowSize = 6;
         MyGame myGame = new MyGame(columnSize, rowSize);
         setContent(myGame);
     }
